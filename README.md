@@ -15,7 +15,7 @@
     </p>
   </li>
   <br>
-  <li><b>Demografik dağılım ve kullanıcı yaşına göre risk belirlenmesi ve dikkat edilmesi gerekenler:</b><br>
+  <li><b>Demografik dağılım ve kullanıcı yaşına göre risk belirlenmesi, dikkat edilmesi gerekenler:</b><br>
     <p float="left">
       <img src="cagif/detay_home.gif" width="216" height="460" hspace="40">
       <img src="cagif/oneri.gif" width="216" height="460" hspace="40">
@@ -26,7 +26,7 @@
     <img src="cagif/test_home.gif" width="216" height="460" hspace="40">
   </li>
   <br>
-  <li><b>Covid başlangıcından günümüze seçilen tarih aralığındaki Covid-19 istatistik verilerinin 6 kategoride grafiklerle gösterimi:</b><br>
+  <li><b>Covid başlangıcından günümüze seçilen tarih aralığındaki Covid-19 istatistik verilerinin 6 kategoride farklı grafiklerle gösterimi:</b><br>
     <img src="cagif/local_graphs.gif" width="216" height="460" hspace="40">
   </li>
   <br>
