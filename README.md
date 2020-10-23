@@ -7,22 +7,29 @@
 - Hastalık veya şüphe durumu.
 
 ### Özellikler
-###### - İnternet bağlantısı gerektirmeden riskli durumlarda anlık uyarı ve bildirim sağlanması:
-  <p float="left">
-    <img src="cagif/suspicion.gif" width="135" height="292">
-    <img src="cagif/notification.gif" width="135" height="292">
-  </p>
-###### - Demografik dağılım ve kullanıcı yaşına göre risk belirlenmesi ve dikkat edilmesi gerekenler:
-  <p float="left">
-    <img src="cagif/detay_home.gif" width="135" height="292">
-    <img src="cagif/oneri.gif" width="135" height="292">
-  </p>
-###### - Covid testi:
-<img src="cagif/test_home.gif" width="135" height="292">
-###### - Covid başlangıcından günümüze seçilen tarih aralığındaki Covid-19 istatistik verilerinin 6 kategoride grafiklerle gösterimi:
-<img src="cagif/local_graphs.gif" width="135" height="292">
-###### - Dünya geneli İstatistikler, 217 ülke arasından her yenilendiğinde rastgele seçilen 5 ülkenin yine rastgele seçilen 4 farklı kategorideki verilerinin grafikleştirilmesi:
-<img src="cagif/global_graph.gif" width="135" height="292">
+<ul>
+  <li><b>İnternet bağlantısı gerektirmeden riskli durumlarda anlık uyarı ve bildirim sağlanması:</b><br>
+    <p float="left">
+      <img src="cagif/suspicion.gif" width="155" height="335">
+      <img src="cagif/notification.gif" width="155" height="335">
+    </p>
+  </li>
+  <li><b>Demografik dağılım ve kullanıcı yaşına göre risk belirlenmesi ve dikkat edilmesi gerekenler:</b><br>
+    <p float="left">
+      <img src="cagif/detay_home.gif" width="155" height="335">
+      <img src="cagif/oneri.gif" width="155" height="335">
+    </p>
+  </li>
+  <li><b>Covid testi: </b><br>
+    <img src="cagif/test_home.gif" width="155" height="335">
+  </li>
+  <li><b>Covid başlangıcından günümüze seçilen tarih aralığındaki Covid-19 istatistik verilerinin 6 kategoride grafiklerle gösterimi:</b><br>
+    <img src="cagif/local_graphs.gif" width="155" height="335">
+  </li>
+  <li><b>Dünya geneli İstatistikler, 217 ülke arasından her yenilendiğinde rastgele seçilen 5 ülkenin yine rastgele seçilen 4 farklı kategorideki verilerinin grafikleştirilmesi: </b><br>
+    <img src="cagif/global_graph.gif" width="155" height="335">
+  </li>
+</ul>
 
 ### Kurulum
 Proje kök dizinindeki apk dosyasını android bir telefona kurarak denenebilir veya proje klonlanıp Android Studio ile çalıştırılabilir.
