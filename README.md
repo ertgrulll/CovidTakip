@@ -36,7 +36,7 @@
 </ul>
 
 ### Kurulum
-Proje kök dizinindeki apk dosyasını android bir telefona kurarak denenebilir veya proje klonlanıp Android Studio ile çalıştırılabilir.
+Proje kök dizinindeki apk dosyası android bir telefona kurarak denenebilir veya proje klonlanıp Android Studio ile çalıştırılabilir.
 
 ##### Not:
 Proje, geliştirmek veya kullanmak isteyen herhangi birine açıktır. Paylaşma amacım olmadan NKU staj projesi olarak yazdım.
