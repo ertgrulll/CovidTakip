@@ -10,7 +10,7 @@
 <ul>
   <li><b>İnternet bağlantısı gerektirmeden riskli durumlarda anlık uyarı ve bildirim sağlanması:</b><br>
     <p float="left">
-      <img src="cagif/suspicion.gif" width="216" height="460">
+      <img src="cagif/suspicion.gif" width="216" height="460" hspace="40">
       <img src="cagif/notification.gif" width="216" height="460" hspace="40">
     </p>
   </li>
