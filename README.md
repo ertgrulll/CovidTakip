@@ -8,16 +8,17 @@
 
 ### Özellikler
 - ###### İnternet bağlantısı gerektirmeden riskli durumlarda **anlık uyarı** ve bildirim sağlanması:
-![gif](cagif/suspicion.gif =250x250)  ![gif](cagif/notification.gif =250x250)
+<img src="cagif/suspicion.gif" width="135" height="292">
+<img src="cagif/notification.gif" width="135" height="292">
 - ###### Demografik dağılım ve kullanıcı yaşına göre risk belirlenmesi ve dikkat edilmesi gerekenler:
-![gif](cagif/detay_home.gif =250x250)  ![gif](cagif/oneri.gif =250x250)
+<img src="cagif/detay_home.gif" width="135" height="292">
+<img src="cagif/oneri.gif" width="135" height="292">
 - ###### Covid testi:
-![gif](cagif/test_hpme.gif =250x250)
+<img src="cagif/test_hpme.gif" width="135" height="292">
 - Covid başlangıcından günümüze **seçilen tarih aralığındaki** Covid-19 istatistik verilerinin 6 kategoride grafiklerle gösterimi:
-![gif](cagif/local_graphs.gif =250x250)
+<img src="cagif/local_graphs.gif" width="135" height="292">
 - Dünya geneli İstatistikler, 217 ülke arasından **her yenilendiğinde** rastgele seçilen 5 ülkenin yine rastgele seçilen 4 farklı kategorideki verilerinin grafikleştirilmesi:
-![gif](cagif/global_graph.gif =250x250)
-- 
+<img src="cagif/global_graph.gif" width="135" height="292">
 
 ### Kurulum
 Proje kök dizinindeki apk dosyasını android bir telefona kurarak denenebilir veya proje klonlanıp Android Studio ile çalıştırılabilir.
