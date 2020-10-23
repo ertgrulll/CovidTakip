@@ -1,6 +1,6 @@
 # Covid Takip
 
-*Covid Takip* uygulaması, salgından korunmayı ve Türkiye-Dünya verilerinin görselleştirilerek anlaşılmasının kolaylaşmasını amaçlayan, Java ile yazılmış bir android projesidir. BLE(bluetooth low energy) destekli çip sete sahip cihazlarda(android 5.0-api level 21+ %97) beacon paketleri yayınlar ve diğer cihazlardan gelen paketleri tarayıp aynı UUID'ye sahip olanları çözerek gelen bilgileri işler. Bu paketler hexadecimal formatta şunları taşır:
+*Covid Takip* uygulaması, salgından korunmayı ve Türkiye-Dünya verilerinin görselleştirilerek anlaşılmasının kolaylaşmasını amaçlayan, Java ile yazılmış bir android projesidir. BLE(bluetooth low energy) destekli çip sete sahip cihazlarda(android 5.0-api level 21+ %97) beacon paketleri yayınlar ve diğer cihazlardan gelen paketleri tarayıp aynı id'ye sahip olanları çözerek gelen bilgileri işler. Bu paketler hexadecimal formatta şunları taşır:
 
 - Uygulamaya özgü bir id, 
 - Kullanıcıya özgü bir id,
