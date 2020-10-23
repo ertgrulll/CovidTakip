@@ -1,0 +1,107 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="10dp"
+    tools:context="fragments.GlobalFragment">
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/tum_dunyada"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/affectedCountries"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pieChart" />
+
+    <TextView
+        android:id="@+id/affectedCountries"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#748AC8FC"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10dp"
+        android:text="@string/gunluk_iyilesen"
+        android:textColor="#202020"
+        app:layout_constraintBottom_toTopOf="@+id/totalCases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/totalCases"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#748AC8FC"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10dp"
+        android:text="@string/gunluk_iyilesen"
+        android:textColor="#202020"
+        app:layout_constraintBottom_toTopOf="@+id/totalDeaths"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/affectedCountries" />
+
+    <TextView
+        android:id="@+id/totalDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#748AC8FC"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10dp"
+        android:text="@string/gunluk_iyilesen"
+        android:textColor="#202020"
+        app:layout_constraintBottom_toTopOf="@+id/todayDeaths"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalCases" />
+
+    <TextView
+        android:id="@+id/todayDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#748AC8FC"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10dp"
+        android:text="@string/gunluk_iyilesen"
+        android:textColor="#202020"
+        app:layout_constraintBottom_toTopOf="@id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/totalDeaths" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/todayDeaths" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

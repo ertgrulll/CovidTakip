@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:override="true">
+    <string name="app_name">CovidTakip</string>
+    <string name="title_activity_loader">FullscreenActivity</string>
+    <string name="loader_text">Covid-19 Takip, Önlem ve Uyarı</string>
+    <string name="gizlilik_baslik">Gizlilik &amp; Veri Kullanımı</string>
+    <string name="gizlilik_sozlesme">Sözleşmesi</string>
+    <string name="gizlilik_sozlesme_metni">Kayıt esnasında istenilen telefon numarası bilgisi bir hesabın yalnızca bir kişiye/cihaza ait olduğunu garanti altına almak için kullanılmaktadır. Uygulama kullanım sürecinde toplanan konum bilgileri yerlere/konumlara göre insan yoğunluğunu belirlemek ve olası enfeksiyon risklerini en aza indirmek için sesli veya görsel bildirim şeklinde uyarıların sağlanması, bağlantı(bluetooth) bilgileri uygulamayı kullanan ve sonradan hastalığa yakalanmış kişilerle geçmişe dönük 14 gün içerisinde karşılaşmış olmanız durumunda kullanıcıların uyarılması için kullanılmaktadır. Kullanıcı tarafından verilen veya kullanım süreci boyunca toplanan bilgiler üçüncü parti şahıslar, şirketler,  devlet veya sağlık kurumları ile paylaşılmamakta, yalnızca uygulamanın doğru veya etkin şekilde çalışmasını sağlama amacıyla işlenmektedir. Uygulamayı kullanabilmek için lütfen verilerinizin işlenmesine dair onay veriniz. Bu sözleşme hakkında detaylı bilgi veya bir kopyasını edinmek için e-mail adresi üzerinden iletişime geçebilirsiniz.</string>
+    <string name="reject">reject</string>
+    <string name="accept">accept</string>
+    <string name="izinler">İzinler &amp; Bilgilendirme</string>
+    <string name="izin_metni">Uygulamanın doğru çalışabilmesi için bazı izinlere ihtiyacımız var. Yoğunluk haritasını kullanabilmeniz için konum bilgilerinize erişmemiz gerekiyor. İzin ver  butonuna dokunduktan sonra lütfen gerekli izinler için onay verin. Daha sonra cihaz ayarlarından izinleri gözden geçirebilir veya değiştirebilirsiniz.</string>
+    <string name="izin_ver">İzin Ver</string>
+    <string name="ad_soyad">Ad Soyad</string>
+    <string name="e_posta">E-Posta</string>
+    <string name="dogum_tarihi">Doğum Tarihi</string>
+    <string name="telefon_numarasi">Telefon Numarası</string>
+    <string name="sifre">Şifre</string>
+    <string name="giris">Giriş</string>
+    <string name="hesap_var">Daha önce kayıt olduysanız giriş yapmak için dokunun</string>
+    <string name="sifremi_unuttum">Şifremi unuttum</string>
+    <string name="risk">Risk</string>
+    <string name="harita">Harita</string>
+    <string name="istatistik">İstatistik</string>
+    <string name="yes_icon">Yes icon</string>
+    <string name="temas_yok">Enfekte olduğu<br/> onaylanmış bir<br/> kullanıcı ile<br/> yakın
+        temasınız
+        yok</string>
+    <string name="tavsiyeler">Kişisel <br/> tavsiyeler…</string>
+    <string name="location_icon">Location Icon</string>
+    <string name="belirtiler">Belirtiler, test ve tanı yöntemleri…</string>
+    <string name="korunma_yontemleri">Covid-19 korunma yöntemleri, dikkat etmeniz gerekenler…</string>
+    <string name="detaylar">Detaylar</string>
+    <string name="baslat">Başlat</string>
+    <string name="suphe">Belirti gösterdiğimden şüpheleniyorum</string>
+    <string name="onayli_hasta">Onaylanmış bir covid-19 hastasıyım</string>
+    <string name="istatistik_genel_gunluk">istatistik-genel/günlük</string>
+    <string name="toplam_vefat">Toplam Vefat</string>
+    <string name="toplam_hasta">Toplam Hasta</string>
+    <string name="toplam_iyilesen">Toplam İyileşen</string>
+    <string name="toplam_test">Toplam Test</string>
+    <string name="veri_detaylari">Veri detayları</string>
+    <string name="gunluk_grafik">Günlük Grafik</string>
+    <string name="gunluk_test">Günlük Test</string>
+    <string name="gunluk_vefat">Günlük Vefat</string>
+    <string name="gunluk_vaka">Günlük Vaka</string>
+    <string name="gunluk_iyilesen">Günlük İyileşen</string>
+    <string name="toplam_test_sayisi">Toplam Test Sayısı</string>
+    <string name="toplam_vefat_sayisi">Toplam Vefat Sayısı</string>
+    <string name="aktif_vaka">Aktif Vaka</string>
+    <string name="kuresel">Küresel</string>
+    <string name="yerel">Yerel</string>
+    <string name="mtrl_picker_range_header_only_start_selected" description="Placeholders for two dates separated by a dash representing a range where start date has been selected [CHAR_LIMIT=60]" tools:override="true">%1$s – Bitiş Tarihi</string>
+    <string name="mtrl_picker_range_header_only_end_selected" description="Placeholders for two dates separated by a dash representing a range where end date has been selected [CHAR_LIMIT=60]" tools:override="true">Başlangıç Tarihi – %1$s</string>
+    <string name="mtrl_picker_range_header_unselected" description="Placeholders for two dates separated by a dash representing a range [CHAR_LIMIT=60]" tools:override="true">Başlangıç Tarihi – Bitiş Tarihi</string>
+    <string name="tarih_araligi_sec">Tarih Aralığı Seç</string>
+    <string name="background">background</string>
+    <string name="icon">icon</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="grafik_tarih_araligi">Grafik Tarih Aralığı:</string>
+    <string name="tum_dunyada">Tüm Dünyada:</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/warning"
+        android:title="@string/risk"/>
+    <item
+        android:id="@+id/navigation_local"
+        android:enabled="true"
+        android:icon="@drawable/stats"
+        android:title="@string/yerel"/>
+    <item
+        android:id="@+id/navigation_global"
+        android:enabled="true"
+        android:icon="@drawable/earth"
+        android:title="@string/kuresel"/>
+</menu>

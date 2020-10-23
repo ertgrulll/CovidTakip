@@ -1,0 +1,309 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nCardContactedPeople"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border_radius_shape"
+        app:layout_constraintHeight_percent=".33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".49">
+
+        <ImageView
+            android:id="@+id/statusIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/yes_icon"
+            android:padding="25dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/yes" />
+
+        <TextView
+            android:id="@+id/statusTextHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="bottom"
+            android:background="#2699FB"
+            android:gravity="center_horizontal"
+            android:padding="23dp"
+            android:singleLine="false"
+            android:text="@string/temas_yok"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            app:autoSizeTextType="uniform" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nCardUser"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/border_radius_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".33"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/nCardContactedPeople"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".49">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:background="#D14C4C"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingVertical="35dp"
+                    android:text="@string/tavsiyeler"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    app:autoSizeTextType="uniform" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/stay_home" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".15"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnAdvicesHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="İncele"
+                    android:textColor="#D14C4C"
+                    app:autoSizeMaxTextSize="15sp"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nCardSuspicion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_radius_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".33"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nCardContactedPeople"
+        app:layout_constraintWidth_percent=".49">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="top"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/belirtiler"
+                    android:textAlignment="center"
+                    android:textColor="#2699FB"
+                    app:autoSizeMaxTextSize="16sp"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight=".5"
+                android:background="#2699FB"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/btnTestHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_radius_shape"
+                    android:text="@string/baslat"
+                    android:textColor="#2699FB"
+                    app:autoSizeMaxTextSize="15sp"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nCardContactedCase"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_radius_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".33"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/nCardSuspicion"
+        app:layout_constraintTop_toBottomOf="@id/nCardUser"
+        app:layout_constraintWidth_percent=".49">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:background="#2699FB"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/korunma_yontemleri"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    app:autoSizeMaxTextSize="14sp"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnDetailsHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_radius_blue"
+                    android:text="@string/detaylar"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/switchContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintHeight_percent=".11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nCardSuspicion">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:paddingVertical="10dp"
+            android:text="@string/suphe"
+            app:autoSizeTextType="uniform" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/indicationSwitch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_weight=".15"
+            app:layout_constraintStart_toEndOf="@id/textView11"
+            app:layout_constraintTop_toBottomOf="@id/nCardContactedCase" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintHeight_percent=".11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/switchContainer1">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:paddingVertical="10dp"
+            android:text="@string/onayli_hasta"
+            app:autoSizeTextType="uniform" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/caseSwitch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_weight=".15" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

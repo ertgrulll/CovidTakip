@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerParentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background"
+    android:orientation="vertical"
+    tools:context="activities.Register">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="135dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="@string/giris_yap"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/fieldContainer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fieldContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+
+        android:background="@drawable/border_radius_shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <ImageView
+            android:id="@+id/iconPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/icon"
+            app:layout_constraintStart_toStartOf="@id/fieldContainer"
+            app:layout_constraintTop_toTopOf="@id/fieldContainer"
+            app:srcCompat="@drawable/icon" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent=".3"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints="null"
+            android:ems="10"
+            android:gravity="center_vertical|start"
+            android:hint="@string/ad_soyad"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#8E8E8E"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/iconPerson"
+            app:layout_constraintTop_toTopOf="@id/fieldContainer" />
+
+        <ImageView
+            android:id="@+id/iconBirthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/icon"
+            app:layout_constraintStart_toStartOf="@id/fieldContainer"
+            app:layout_constraintTop_toTopOf="@id/iconPerson"
+            app:srcCompat="@drawable/calendar" />
+
+
+        <Button
+            android:id="@+id/pickDate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent=".25"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="60dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            android:paddingHorizontal="20dp"
+            android:text="@string/dogum_tarihi"
+            android:textAllCaps="false"
+            android:textColor="#8E8E8E"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/iconBirthday"
+            app:layout_constraintTop_toTopOf="@id/etName" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginStart="40dp"
+            android:background="#8E8E8E"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@id/iconBirthday"
+            app:layout_constraintTop_toBottomOf="@id/pickDate" />
+
+        <ImageView
+            android:id="@+id/iconPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/icon"
+            app:layout_constraintStart_toStartOf="@id/fieldContainer"
+            app:layout_constraintTop_toTopOf="@id/iconBirthday"
+            app:srcCompat="@drawable/phone" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent=".3"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="60dp"
+            android:autofillHints="null"
+            android:ems="10"
+            android:gravity="center_vertical|start"
+            android:hint="@string/telefon_numarasi"
+            android:inputType="phone"
+            android:maxLength="13"
+            android:paddingHorizontal="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#8E8E8E"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/iconPhone"
+            app:layout_constraintTop_toTopOf="@id/pickDate" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/border_radius_green"
+        android:padding="13dp"
+        android:text="@string/giris_yap"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/fieldContainer" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/layoutCl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:elevation="2dp"
+        android:gravity="center|center_horizontal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="lollipop">
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <!--Mail sign-in opt-->
+    <!--<TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:text="@string/hesap_var"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fieldContainer"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="@color/brightGreen"
+        android:text="@string/giris_yap"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

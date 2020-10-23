@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E618A</color>
+    <color name="colorPrimaryDark">#8AC8FC</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="navIconDefault">#848485</color>
+    <color name="navIconSelected">#3F9FEF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="radius_button_blue">#2699FB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="lightGray" type="color">#D3D3D3</color>
+    <color name="brightGreen">#80C341</color>
+    <color name="transparent">#00000000</color>
+    <color name="dialog">#B3040404</color>
+</resources>
