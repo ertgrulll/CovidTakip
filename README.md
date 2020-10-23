@@ -1,26 +1,26 @@
 # Covid Takip
 
-*Covid Takip* uygulaması, salgından korunmayı ve Türkiye-Dünya verilerinin görselleştirilerek anlaşılmasının kolaylaşmasını amaçlayan, Java ile yazılmış bir android projesidir. BLE(bluetooth low energy) destekli çip sete sahip cihazlarda(android 5.0-api level 21+ %97) beacon paketleri yayınlar ve diğer cihazlardan gelen paketleri tarayıp aynı UUID'ye sahip olanları çözerek gelen bilgileri işler. Bu paketler hexadecimal formatta şunları taşır:
+*Covid Takip* uygulamasÄ±, salgÄ±ndan korunmayÄ± ve TÃ¼rkiye-DÃ¼nya verilerinin gÃ¶rselleÅŸtirilerek anlaÅŸÄ±lmasÄ±nÄ±n kolaylaÅŸmasÄ±nÄ± amaÃ§layan, Java ile yazÄ±lmÄ±ÅŸ bir android projesidir. BLE(bluetooth low energy) destekli Ã§ip sete sahip cihazlarda(android 5.0-api level 21+ %97) beacon paketleri yayÄ±nlar ve diÄŸer cihazlardan gelen paketleri tarayÄ±p aynÄ± UUID'ye sahip olanlarÄ± Ã§Ã¶zerek gelen bilgileri iÅŸler. Bu paketler hexadecimal formatta ÅŸunlarÄ± taÅŸÄ±r:
 
-- Uygulamaya özgü bir id, 
-- Kullanıcıya özgü bir id,
-- Hastalık veya şüphe durumu.
+- Uygulamaya Ã¶zgÃ¼ bir id, 
+- KullanÄ±cÄ±ya Ã¶zgÃ¼ bir id,
+- HastalÄ±k veya ÅŸÃ¼phe durumu.
 
-### Özellikler
-- ###### İnternet bağlantısı gerektirmeden riskli durumlarda **anlık uyarı** ve bildirim sağlanması:
-![gif](cagif/suspicion.gif)  ![gif](cagif/notification.gif)
-- ###### Demografik dağılım ve kullanıcı yaşına göre risk belirlenmesi ve dikkat edilmesi gerekenler:
-![gif](cagif/detay_home.gif)  ![gif](cagif/oneri.gif)
+### Ã–zellikler
+- ###### Ä°nternet baÄŸlantÄ±sÄ± gerektirmeden riskli durumlarda **anlÄ±k uyarÄ±** ve bildirim saÄŸlanmasÄ±:
+![gif](cagif/suspicion.gif =250x250)  ![gif](cagif/notification.gif =250x250)
+- ###### Demografik daÄŸÄ±lÄ±m ve kullanÄ±cÄ± yaÅŸÄ±na gÃ¶re risk belirlenmesi ve dikkat edilmesi gerekenler:
+![gif](cagif/detay_home.gif =250x250)  ![gif](cagif/oneri.gif =250x250)
 - ###### Covid testi:
-![gif](cagif/test_hpme.gif)
-- Covid başlangıcından günümüze **seçilen tarih aralığındaki** Covid-19 istatistik verilerinin 6 kategoride grafiklerle gösterimi:
-![gif](cagif/local_graphs.gif)
-- Dünya geneli İstatistikler, 217 ülke arasından **her yenilendiğinde** rastgele seçilen 5 ülkenin yine rastgele seçilen 4 farklı kategorideki verilerinin grafikleştirilmesi:
-![gif](cagif/global_graph.gif)
+![gif](cagif/test_hpme.gif =250x250)
+- Covid baÅŸlangÄ±cÄ±ndan gÃ¼nÃ¼mÃ¼ze **seÃ§ilen tarih aralÄ±ÄŸÄ±ndaki** Covid-19 istatistik verilerinin 6 kategoride grafiklerle gÃ¶sterimi:
+![gif](cagif/local_graphs.gif =250x250)
+- DÃ¼nya geneli Ä°statistikler, 217 Ã¼lke arasÄ±ndan **her yenilendiÄŸinde** rastgele seÃ§ilen 5 Ã¼lkenin yine rastgele seÃ§ilen 4 farklÄ± kategorideki verilerinin grafikleÅŸtirilmesi:
+![gif](cagif/global_graph.gif =250x250)
 - 
 
 ### Kurulum
-Proje kök dizinindeki apk dosyasını android bir telefona kurarak denenebilir veya proje klonlanıp Android Studio ile çalıştırılabilir.
+Proje kÃ¶k dizinindeki apk dosyasÄ±nÄ± android bir telefona kurarak denenebilir veya proje klonlanÄ±p Android Studio ile Ã§alÄ±ÅŸtÄ±rÄ±labilir.
 
 ##### Not:
-Proje, geliştirmek veya kullanmak isteyen herhangi birine açıktır. Paylaşma amacım olmadan NKU staj projesi olarak yazdım.
+Proje, geliÅŸtirmek veya kullanmak isteyen herhangi birine aÃ§Ä±ktÄ±r. PaylaÅŸma amacÄ±m olmadan NKU staj projesi olarak yazdÄ±m.
