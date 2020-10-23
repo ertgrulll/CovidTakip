@@ -14,7 +14,7 @@
 <img src="cagif/detay_home.gif" width="135" height="292">
 <img src="cagif/oneri.gif" width="135" height="292">
 - ###### Covid testi:
-<img src="cagif/test_hpme.gif" width="135" height="292">
+<img src="cagif/test_home.gif" width="135" height="292">
 - Covid başlangıcından günümüze **seçilen tarih aralığındaki** Covid-19 istatistik verilerinin 6 kategoride grafiklerle gösterimi:
 <img src="cagif/local_graphs.gif" width="135" height="292">
 - Dünya geneli İstatistikler, 217 ülke arasından **her yenilendiğinde** rastgele seçilen 5 ülkenin yine rastgele seçilen 4 farklı kategorideki verilerinin grafikleştirilmesi:
